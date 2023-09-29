@@ -39,4 +39,4 @@ while not end_of_game:
         print(f"You have already been punished for this wrong letter '{guess}',Try another letter.")
   else:
      end_of_game = True
-     print("You lose.")
+     print(f"{hangman_art.lose}\n\n The word was {''.join(chosen_word)}.")
